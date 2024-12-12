@@ -1736,6 +1736,46 @@ img {
         font-size: 12px;
     }
 }
+/* Mobile-friendly navbar */
+@media screen and (max-width: 768px) {
+    .navbar {
+      width: 100%;
+    }
+    
+    nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .logo {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .logo img {
+      width: 60%; /* Adjust as needed */
+    }
+  
+    .navbar-menu {
+      width: 100%;
+      justify-content: center;
+    }
+  
+    .navbar-menu ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .navbar-menu ul li {
+      margin: 10px 0; /* Add spacing between items */
+    }
+  
+    .navbar-menu ul li a {
+      padding: 10px 20px; /* Adjust padding for better touch target */
+      font-size: 18px; /* Adjust font size for readability */
+    }
+  }
+  
 
 
 
